@@ -1,0 +1,204 @@
+/* I organize my CSS from most general types to most specific (tags-->class-->ID).
+Within each section, the objects are organized from their location on the actual
+webpage */
+
+
+/* Reach-All css effects*/
+
+* {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+}
+
+h5,h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  /*color: #f98a9a;*/
+  color: #FF3B3F;
+  text-decoration: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+img {
+  max-height: 350px;
+  max-width: 350px;
+}
+
+/* Document Sections */
+
+nav {
+  background-color: #fafbfd;
+  padding: 30px;
+  float:none;
+}
+
+body {
+  margin: 0px;
+  background-color: #fafbfd;
+}
+
+footer {
+  display: block;
+}
+
+footer p {
+  font-size: 12px;
+  color: gray;
+  position:static;
+  clear: both;
+}
+
+footer a {
+  font-size: 12px;
+}
+
+/* Class */
+
+.navlink {
+  padding-right:30px;
+  font-size: 26px;
+}
+
+.Project_Titles {
+  margin-bottom: 0px;
+}
+
+.Project_List {
+  display: inline;
+  padding: 10px;
+}
+
+/* ID */
+
+#brand {
+  font-size :32px;
+  text-decoration:overline;
+}
+
+#Top {
+  /*background-image: url("IMG_5549.jpg");*/
+  /*background: -webkit-linear-gradient(#CAEBF2, #F3FDFC);*/
+  background-color:#ff6b93 ;
+  background-position:center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  padding-top: 0px;
+  margin-bottom: 25px;
+  float:left;
+}
+
+#Title {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: bolder;
+  font-variant: small-caps;
+  /*text-emphasis-style:dot;*/
+  transition : 5s;
+  -webkit-transition : 5s;
+}
+
+#body {
+  padding-left: 125px;
+  padding-right: 125px;
+}
+
+#ContactPlaceholder {
+  width: 20%;
+  float: left;
+  /*background-color:#6496b7;*/
+  margin-left: 20%;
+  height: 200px;
+  border-style: solid;
+}
+
+#ContactPlaceholder h5 {
+  text-align: center;
+  margin-top: 90px;
+}
+
+#ContactPlaceholder:hover {
+  /*background-color: #3fb0ac;*/
+  border-color: #ff6b93;
+}
+
+#Contact {
+  float:left;
+  width: 38%;
+  clear:none;
+  margin-left: 10%;
+  box-shadow: 20px;
+  display:none;
+  border-style:solid;
+  padding-left: 10px;
+}
+
+#Contact h5 {
+  text-decoration:underline;
+  text-align: center;
+}
+
+#Contact:hover {
+  /*background-color: #3fb0ac;*/
+  border-color: #ff6b93;
+}
+
+#AboutMePlaceholder {
+  width: 20%;
+  float: right;
+  /*background-color:#c1798c;*/
+  margin-right: 20%;
+  height: 200px;
+  border-style: solid;
+}
+
+#AboutMePlaceholder h5{
+    text-align: center;
+    margin-top: 90px;
+}
+
+#AboutMePlaceholder:hover {
+  /*background-color: ;*/
+  border-color: #ff6b93;
+}
+
+#AboutMe {
+  margin-right:10%;
+  float:right;
+  width: 38%;
+  clear:none;
+  display:none;
+  border-style:solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#AboutMe h5 {
+  text-decoration:underline;
+  text-align: center;
+}
+
+#AboutMe:hover {
+  /*background-color: ;*/
+  border-color: #ff6b93;
+}
+
+#lowerhalf {
+  overflow: hidden;
+}
+
+#Broken_Link  {
+}
