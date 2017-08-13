@@ -1,21 +1,149 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans" rel="stylesheet">
+	<meta name="viewport" content = "width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans|Raleway" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="Design.css">
-  <nav>
+	<div id = "nav-holder">
+  	<nav>
       <a class="navlink" href=index.html>Home</a>
       <a class="navlink" href=Projects.html>Projects</a>
       <a class="navlink" href=Resume.html>Resume</a>
+			<a class = "nav-button" href="mailto:consmith@tamu.edu?Subject=PortfolioContact"><img src="Email.svg"></a>
+			<a class = "nav-button" href="https://github.com/consmith"><img src="Github.png"></a>
+			<a class = "nav-button" href="https://www.linkedin.com/in/connor-smith-524011115?trk=hp-identity-name"><img src="LinkedIn.png"></a>
       <p id="brand">Connor Smith's Portfolio</p>
-  </nav>
+  	</nav>
+	</div>
   <div id="Top">
     <h1 id="Title">Resume</h1>
   </div>
 </head>
 <body>
-  <div id="body">
-  </div>
+		<p id = "Mobile_Info"> Click any of the Titles below (PDF, Interactive, or Scannable) to switch which type of resume you are viewing	-	(This page works better on a bigger screen)</p>
+		<div class = "Resume_Titles" id = "PDF_Title">
+			<h5>PDF</h5>
+		</div>
+		<div class = "Resume_Titles" id = "Interactive_Title">
+			<h5>Interactive</h5>
+		</div>
+		<div class = "Resume_Titles" id = "Scannable_Title">
+			<h5>Scannable</h5>
+		</div>
+	
+	<div id = 'body'>
+		<div id = 'PDF' class = 'Resume_Type'>
+			<h3>
+			<a href = "Work%20Resume.pdf">Full Page View</a>
+			</h3>
+			<p>
+				<embed src = "Work%20Resume.pdf" width = "800" height = "800">
+			</p>
+		</div>
+		<div id = 'Interactive' class = 'Resume_Type'>
+			<h6 id="Info_Title">How This Works:</h6>
+			<p id ="Info"> Click any of the Section Titles to minimize the info in that section. Additionally you can search for keywords using the search function below</p>
+			<input id = "Resume_Search" type = "search" placeholder="Search...">
+			<div id = 'Education' class = 'Inter'>
+				<h5 id = 'EDU'> Education </h5>
+				<div>
+					<ul>
+						<li>Richland Collegiate High School</li>
+						<ul>
+							<li>Associates of Applied Science - May 2016</li>
+							<li>College GPA 3.927</li>
+							<li>Finished with 70 credits worth of dual credit classes.</li>
+							<li>A 2 year high school program which allowed students to dual task, and finish the last 2 years of their high school diploma while obtaining an Associates degree. This was done by taking college level classes, that were equivalent or higher to what was required in high school.</li>
+						</ul>
+						
+						
+						<li>Texas A&M University</li>
+						<ul>
+							<li>Bachelor of Computer Science expected May 2020</li>
+							<li>College GPA 3.5</li>
+							<li>Current Grade level: Sophomore</li>
+						</ul>
+					</ul>
+				</div>
+			</div>
+			<div id = 'Work_Experience' class = 'Inter'>
+				<h5 id = 'WOR'> Work (Computer Science) Experience </h5>
+				<div>
+					<h6>Visit my Project Page to see all of my projects</h6>
+					<ul>
+						<li>Aggie Coding Club</li>
+						<ul>
+							<li>The Aggie Coding Club allows students at A&M to participate together to create small group projects. whether it be for a company and paid, or just a small idea.</li>
+							<li> This club was the first exposure I had to team projects. I have completed 2 projects with this group so far. (both of which are on my project page)</li>
+							<ul>
+								<li> - The Checkerboard Project: my first exposure to github and working with a team. Coded in Python</li>
+								<li> - The Tamu Event App: an app to log events happening at A&M, expanded git knowledge and Swift + Xcode knowledge</li>
+							</ul>
+						</ul>
+						<li>Current Projects</li>
+						<ul>
+							<li>During the summer of 2017 I began undertaking many small projects to expand my knowledge of languages and how to use them best.</li>
+							<li>I have created projects in:</li>
+							<ul>
+								<li>Python</li>
+								<li>Matlab</li>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>JavaScript</li>
+							</ul>
+							<li>All of which can be seen on my project page</li>
+						</ul>
+						
+					</ul>
+				</div>
+			</div>
+			<div id = 'Extra_Commune' class = 'Inter'>
+				<h5 id = 'COM'> Community and Extracurriculars </h5>
+				<div>
+					<ul>
+						<li>Summer Daycare Worker</li>
+						<ul>
+							<li>2014</li>
+							<li>40 hour week either 8-3 or 10-5</li>
+							<li>Watched kids age 3-13 daily during the week at a school. Worked with 3 other team members daily.</li>
+						</ul>
+						<li>Kids Kingdom Rebuild</li>
+						<ul>
+							<li>Volunteering Project</li>
+							<li>Cummulative 30 hours over fall and spring semester (2015-2017)</li>
+							<li>helped construction workers rebuild an old kids playground. mainly helped carry boards, clean, and saw boards.</li>
+						</ul>
+						<li>VBS Puppet Team</li>
+						<ul>
+							<li>volunteered for my church during their vbs service during the summer</li>
+							<li>worked for ~ 4 weeks practicing, then 1 week performing for the vbs services</li>
+						</ul>
+					</ul>
+				</div>
+			</div>
+			<div id = 'Awards' class = 'Inter'>
+				<h5 id = 'AWA'> Awards and Honors </h5>
+				<div>
+					<ul>
+						<li>A&M Engineering Honors Student</li>
+						<li>Member of National Society of High School Scholars</li>
+					</ul>
+				</div>
+			</div>
+			<!--<div id = 'References'>
+			</div> -->
+		</div>
+		<div id = 'Scannable' class = 'Resume_Type'>
+			<h3>
+			<a href = "Scannable%20Resume.pdf">Full Page View</a>
+			</h3>
+			<p>
+				<embed src = "Scannable%20Resume.pdf" width = "800" height = "800">
+			</p>
+		</div>
+	</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="Effects.js"></script>
 </body>
 <footer>
   <p>

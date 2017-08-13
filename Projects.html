@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans" rel="stylesheet">
+	<meta name="viewport" content = "width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans|Raleway" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="Design.css">
-  <nav>
+  <div id = "nav-holder">
+  	<nav>
       <a class="navlink" href=index.html>Home</a>
       <a class="navlink" href=Projects.html>Projects</a>
       <a class="navlink" href=Resume.html>Resume</a>
+			<a class = "nav-button" href="mailto:consmith@tamu.edu?Subject=PortfolioContact"><img src="Email.svg"></a>
+			<a class = "nav-button" href="https://github.com/consmith"><img src="Github.png"></a>
+			<a class = "nav-button" href="https://www.linkedin.com/in/connor-smith-524011115?trk=hp-identity-name"><img src="LinkedIn.png"></a>
       <p id="brand">Connor Smith's Portfolio</p>
-  </nav>
+  	</nav>
+	</div>
   <div id="Top">
     <h1 id="Title">Projects</h1>
   </div>
@@ -16,52 +22,122 @@
 <body>
   <div id="body">
     <p>
-      This page holds all of my projects that I made throughout my Computer Science
-      career.
+      This page holds the projects that I feel showcase a few different valuable skills. Additionally, you can go to my github straight away to see the repos for all of these projects.
+			<a href = "https://github.com/consmith">My Github Profile</a>
     </p>
-    <h5>Quick Access List</h5>
-    <ul>
-      <li><a href = "#Checkerboard" >Checkerboard Project - Python </a></li>
-      <li><a href = "#Tamu-Event" >Tamu Event App - Xcode and Swift </a></li>
-      <li><a href = "#Website" >This Website - HTML, CSS, and JavaScript </a></li>
+		
+		<p> Click on a link to go to a specific project, or just scroll down to see all of them</p>
+    <h5 id = "Quick-Title">Quick Access List</h5>
+    <ul id = "project-quick-list">
+      <li><a id = "test"   href = "#Chess" >Chess Project - Python </a></li>
+      <li><a   href = "#Website" >This Website - HTML, CSS, and JavaScript </a></li>
+			<li><a   href = "#Stat-Project" >File Analysis for Stats - Matlab </a></li>
+			<li><a   href = "#Nim" >Nim - Python </a></li>
+			<li><a   href = "#Cipher" >Caesar Ciphers - Python & Matlab </a></li>
+			<li><a   href = "#Fizz-Buzz" >Fizz Buzz - Matlab </a></li>
+			<li><a   href = "#Parking" >Parking Fee Calculator - Python </a></li>
+			<li><a   href = "#Collatz" >Collatz Sequence Generator - Python </a></li>
+			<li><a   href = "#Password-Generator" >Password Generator - Python </a></li>
+			<li><a   href = "#Verify-Magic" >Verify Magic Array - Matlab </a></li>
+			<li><a   href = "#Code-Eval" >Source Code Evaluator - R </a></li>
     </ul>
 
-    <h5 class = "Project_Titles" id = "Checkerboard">Checkerboard Project - Python</h5>
+    <h5 class = "Project_Titles" id = "Chess">Chess Project - Python</h5>
     <ul>
-      <li class = "Project_List"><a href = "https://github.com/coltonweaver/ACCPythonCheckers.git">GitHub</a></li>
-      <li class = "Project_List"><a href = "#" download>Download</a></li>
+      <li class = "Project_List"><a href = "https://github.com/consmith/Chess">GitHub</a></li>
     </ul>
-    <p>This project was originally a team project, that fell through. I decided to
+    <p>This project was originally a team project with the Aggie Coding Club, that fell through. I decided to
     take the project up on my own. This was my first serious coding project to complete.
     Otherwise I had simply done small excercises and class problems. I completed this project
     during a 1 week period. It was really exciting creating a game, and predicting all
-    of the possible legalities that must be considered and whatnot. This project was a very
-    exciting first step into more dedicated projects.</p>
-
-    <h5 class = "Project_Titles" id = "Tamu-Event">Tamu Event App - Xcode and Swift</h5>
-    <ul>
-      <li id = "Broken_Link_one" class = "Project_List"><a href = "#">GitHub</a></li>
-      <li id = "Broken_Link_two" class = "Project_List"><a href = "#">Download</a></li>
-    </ul>
-    <p>I am currently working on this project during my spring semester of 2017.
-    I can not say too much about this project, since it has not been released yet.
-    Skill-wise though, I can mention what I am using in this project. This project
-    is a good test on github, and a fairly in depth use of swift, firebase, and design
-    programs such as xcode. This is my first actual project dealing with handling data.</p>
-
+    of the possible legalities that must be considered and whatnot. I also learned a great deal about what makes a team work and what may not be productive in a team environment. All in all, it was a great experience in the team aspect and personal aspect.</p>
     <h5 class = "Project_Titles" id = "Website">This Website - HTML, CSS, and JavaScript</h5>
     <ul>
       <li class = "Project_List"><a href = "https://github.com/consmith/Connor-Smiths-Portfolio.git">GitHub</a></li>
-      <li class = "Project_List"><a href = "#" download>Download</a></li>
     </ul>
     <p>This was technically my first serious project to pick up. I created the original
     site layout within around 2 weeks. Afterwards, I continued randomly adding work to
     the site when I got a chance. This site was fairly easy to create. It was a single person
     project.</p>
-
+		
+		<h5 class = "Project_Titles" id = "Stat-Project">File Analysis for Stats - Matlab</h5>
+    <ul>
+      <li class = "Project_List"><a href = "https://github.com/consmith/Matlab_Statistical_Project">GitHub</a></li>
+			<li class = "Project_List"><a href = "Matlab%20Project%20Report.pdf">User Manual</a></li>
+    </ul>
     <p>
-      Currently trying to fill this page up more!
-    </p>
+			This program is a menu-based program, which allows a user to input a 1 or 2 column array file in matlab. From there, a user name can be chosen, and statistics are calculated for the file. Then an output file can be created with the statistics on it, and it can be printed in the matlab console. I created this script as an end of the semester project for my Engineering class at A&M. 
+		</p>
+		
+		<h5 class = "Project_Titles" id = "Nim">Nim - Python</h5>
+    <ul>
+      <li class = "Project_List"><a href = "https://github.com/consmith/Nim">GitHub</a></li>
+    </ul>
+    <p>
+			A nim game that is played in the console. It is a 2 player game, but can only be played against  player and an AI. This was my first official "AI" and it is pretty successful at the game. It will beat the user every time, if the user makes the wrong first move. Nim can be played in 2 modes, Misere and Normal. Both of which are featured in this program.
+		</p>
+		
+		<h5 class = "Project_Titles" id = "Cipher">Caesar Ciphers - Python & Matlab</h5>
+    <ul>
+      <li class = "Project_List"><a href = "https://github.com/consmith/Caesar_Cipher">GitHub</a></li>
+    </ul>
+    <p>
+			I created two simple ciphers both in Matlab, and Python. A Caesar Cipher simply encrypts a message by switching a letter with another letter a set length down the alphabet, and doing this for each letter in a message. The Matlab script only encrypts the message at an inputted length, and the Python script encrypts and decrypts a message at 13 letters down the alphabet.
+		</p>
+		
+		<h5 class = "Project_Titles" id = "Fizz-Buzz">Fizz Buzz - Matlab</h5>
+    <ul>
+      <li class = "Project_List"><a href = "">GitHub</a></li>
+    </ul>
+    <p>
+			A basic Fizz-Buzz program made in Python. Replaces numbers divisible by 2 different inputs either fizz or buzz, dependent on which it is divisible by. Also includes when a number is divisible by both.
+		</p>
+		
+		<h5 class = "Project_Titles" id = "Parking">Parking Fee Calculator - Python</h5>
+    <ul>
+      <li class = "Project_List"><a href = "">GitHub</a></li>
+    </ul>
+    <p>
+			A class homework project in which I created a fee calculator for a hypothetical Parking Fee. The Parking fee table can be seen on the GitHub ReadMe. 
+		</p>
+		
+		<h5 class = "Project_Titles" id = "Collatz">Collatz Sequence Generator - Python</h5>
+    <ul>
+      <li class = "Project_List"><a href = "">GitHub</a></li>
+    </ul>
+    <p>
+			The 
+			<a href="https://en.wikipedia.org/wiki/Tag_system#Example:_Computation_of_Collatz_sequences" >Collatz Sequence
+			</a> is essentially a math sequence that always result in 1. From this sequence, a tag system was created. In which any amount of A's are inputted, and it always results in 1 A. The program prints out the entire history of the sequence.
+		</p>
+		
+		<h5 class = "Project_Titles" id = "Password-Generator">Password Generator - Python</h5>
+    <ul>
+      <li class = "Project_List"><a href = "">GitHub</a></li>
+    </ul>
+    <p>
+			This function simply uses the random library in Python to create a random password consisting of Alphanumeric values. The inputs allow for the user to set how many passwords to create, and what length each one should be.
+		</p>
+		
+		<h5 class = "Project_Titles" id = "Verify-Magic">Verify Magic Array - Matlab</h5>
+    <ul>
+      <li class = "Project_List"><a href = "">GitHub</a></li>
+    </ul>
+    <p>
+			A <a href="http://mathworld.wolfram.com/MagicSquare.html">Magic Array</a> is simply an array in which every row and column adds to the same value. I created a small function to ensure if an Array is a magic array in Matlab, so that it doesnt need to be checked manually.
+		</p>
+		
+		<h5 class = "Project_Titles" id = "Code-Eval">Source Code Evaluator - R</h5>
+    <ul>
+      <li class = "Project_List"><a href = "">GitHub</a></li>
+			<li>[Work in Progress]</li>
+    </ul>
+    <p>
+			This is my first official project with R. I had heard of it as a free alternative to Matlab. Additionally, I discovered that many things in R can be done without loops! For this reason, I wish to go through this code after completing it, and seeing where I can streamline to exclude the loops in the code.
+			<br>
+			This program's purpose is to read a file of source code, and display useful statistics, such as words used, functions used, and most used functions/loops etc... I am still finishing this project up, but after finishing I can hopefully use it to display some graphical information about each project on this website!
+		</p>
+
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="Effects.js"></script>
